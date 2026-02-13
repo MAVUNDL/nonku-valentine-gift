@@ -84,25 +84,19 @@ export default function Home() {
 
                 {/* LEFT IMAGE */}
                 <div className="photo-left absolute left-6 md:left-24 top-1/2 -translate-y-1/2 rotate-[-12deg] w-[220px] md:w-[260px] h-[320px] md:h-[380px] z-20">
-                    <Image
+                    <img
                         src="/her1.jpg"
                         alt="Beautiful Nonkululeko"
-                        fill
-                        quality={100}
-                        priority
-                        className="rounded-2xl shadow-2xl object-cover"
+                        className="rounded-2xl shadow-2xl object-cover w-full h-full"
                     />
                 </div>
 
                 {/* RIGHT IMAGE */}
                 <div className="photo-right absolute right-6 md:right-24 top-1/2 -translate-y-1/2 rotate-[12deg] w-[220px] md:w-[260px] h-[320px] md:h-[380px] z-20">
-                    <Image
+                    <img
                         src="/her2.jpg"
-                        alt="My Love"
-                        fill
-                        quality={100}
-                        priority
-                        className="rounded-2xl shadow-2xl object-cover"
+                        alt="Beautiful Nonkululeko"
+                        className="rounded-2xl shadow-2xl object-cover w-full h-full"
                     />
                 </div>
 
