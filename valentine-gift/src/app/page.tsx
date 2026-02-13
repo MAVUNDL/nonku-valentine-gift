@@ -135,13 +135,13 @@ export default function Home() {
                         ref={memeRef}
                         className="relative w-[250px] md:w-[400px] h-[250px] md:h-[400px] rounded-2xl shadow-2xl overflow-hidden bg-white/20 backdrop-blur-md flex items-center justify-center"
                     >
-                        <Image
+
+                        <img
                             src="/Funny Tik Tok Pfp.jpg"
-                            alt="Funny Meme"
-                            fill
+                            alt="Beautiful Nonkululeko"
                             className="object-cover rounded-2xl"
-                            quality={100}
                         />
+
                     </div>
                 </div>
             )}
